@@ -21,6 +21,10 @@ class Task
     @priority = number
   end
 
+  def edit(name_change)
+    @name = name_change
+  end
+
 
 
 end
