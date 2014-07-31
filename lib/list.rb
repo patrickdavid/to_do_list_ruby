@@ -40,7 +40,7 @@ class List
        list.tasks.each do |index|
         if index.is_it_done == true
         complete.push(index)
-        end
+      end
       end
     end
     complete

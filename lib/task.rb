@@ -1,6 +1,6 @@
 class Task
 
-  attr_reader(:priority)
+  attr_reader(:priority, :name)
 
   def initialize(name)
     @name = name
